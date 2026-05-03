@@ -2,7 +2,9 @@
 
 Este repositório contém o meu projeto final da disciplina de Processamento de Imagens da Universidade de São Paulo.
 
-O objetivo do projeto é desenvolver uma aplicação que possibilite ao usuário gerar imagens híbridas. Uma imagem híbrida é uma imagem gerada pela combinação das baixas frequências de uma imagem e das altas frequências de outra imagem, de tal forma que a imagem observada varia conforme a distância do observador. De perto observa-se a imagem de altas frequências, enquanto de longe a imagem de baixas frequências se torna evidente. A filtragem será aplicada no domínio da frequencia com filtros Gaussianos.
+O objetivo do projeto é desenvolver uma aplicação que possibilite ao usuário gerar imagens híbridas. Uma imagem híbrida é uma imagem gerada pela combinação das baixas frequências de uma imagem e das altas frequências de outra imagem, de tal forma que a imagem observada varia conforme a distância do observador. De perto observa-se a imagem de altas frequências, enquanto de longe a imagem de baixas frequências se torna evidente. O efeito de distanciamento da imagem pode ser simulado ao comprimir os olhos. 
+
+A filtragem será aplicada no domínio da frequência com filtros Gaussianos.
 
 ## Funcionalidades
 
