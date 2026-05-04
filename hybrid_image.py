@@ -100,8 +100,8 @@ if __name__ == "__main__":
     img_low_shifted_fft = image_to_shifted_fft(img_low)
     img_high_shifted_fft = image_to_shifted_fft(img_high)
 
-    img_low_filtered_fft = apply_filter_color(img_low_shifted_fft, freq_gaussian_low_filter, radius=15)
-    img_high_filtered_fft = apply_filter_color(img_high_shifted_fft, freq_gaussian_high_filter, radius=25)
+    img_low_filtered_fft = apply_filter_color(img_low_shifted_fft, freq_gaussian_low_filter, radius=10)
+    img_high_filtered_fft = apply_filter_color(img_high_shifted_fft, freq_gaussian_high_filter, radius=20)
 
     b_low, g_low, r_low = img_low_filtered_fft
     b_high, g_high, r_high = img_high_filtered_fft
